@@ -160,6 +160,7 @@ public class moviesFrame extends javax.swing.JFrame {
         
         // 5. Notifikasi sukses
         javax.swing.JOptionPane.showMessageDialog(this, "Film Berhasil Ditambahkan ke Journal!");
+            new view.readFrame().setVisible(true);
         
     } catch (Exception e) {
         javax.swing.JOptionPane.showMessageDialog(this, "Error: " + e.getMessage());
